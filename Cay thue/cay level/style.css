@@ -28,7 +28,7 @@ a{
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
     grid-gap: 2rem;
-    padding-left: 9%;
+    padding-left: 5%;
     font: normal 1rem sans-serif;
 }
 
