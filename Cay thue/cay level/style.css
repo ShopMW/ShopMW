@@ -23,7 +23,6 @@ a{
 .slider {
     background-color: var(--bg);
     padding: 11.5rem;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
