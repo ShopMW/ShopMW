@@ -22,7 +22,7 @@
     --gradient-white-bg2:linear-gradient(98deg, #000046 0%,#1cb5e0 100%);      
     --saki-color:#0000;   
     
-    --gojo-gif-color:linear-gradient(98deg, #0f0c29 0%,#302b63,#24243e 100%);
+    --gojo-gif-color:linear-gradient(98deg, #0f0c29 0%,#302b63,#24243e 90%);
     --black-color:#0000;
     --MW-color:linear-gradient(92deg , #2b5876 10%,#4e4376 100%)
 }
@@ -501,7 +501,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(220px , auto));
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     position: relative;
     z-index: 1;
 }
@@ -509,7 +509,7 @@ section{
 .servicesItem{
     box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
                   rgba(0,0,0,0.06)0px 1px 2px 0px;
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
     border-radius: 10px;
     background: var(--gradient-white-bg2);
     text-align: center;
