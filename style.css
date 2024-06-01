@@ -24,7 +24,11 @@
     
     --gojo-gif-color:linear-gradient(98deg, #0f0c29 0%,#302b63,#24243e 90%);
     --black-color:#0000;
-    --MW-color:linear-gradient(92deg , #2b5876 10%,#4e4376 100%)
+    --MW-color:linear-gradient(92deg , #2b5876 10%,#4e4376 100%);
+    --gradient-color2-bg:linear-gradient(180deg,rgb(5, 11, 20)0%,
+        rgb(145, 42, 165)51%,
+        rgb(66, 15, 73)100%);
+        --MW2-color:linear-gradient(92deg , #00c6ff 10%,#0072ff 100%);
 }
 
 a{
@@ -159,14 +163,14 @@ section{
 }
 
 .hero-info h3{
-    color: #b8f7ff;
+    color: #17c2d8;
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .hero-info h1{
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: #ffffff;
 }
 
@@ -177,19 +181,19 @@ section{
 }
 
 .text-animate h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
     color: transparent;
     -webkit-text-stroke: 0.1vw #cff8ff;
-    background: var(--gradient-color-bg);
+    background: var(--gradient-color2-bg);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0 0;
     transition: .6s;
     letter-spacing: 2px;
     animation: moveText 3s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
 }
 
 .text-animate h2::before{
@@ -198,10 +202,10 @@ section{
     top: 7px;
     left: -3px;
     width: 0;
-    height: 85%;
+    height: 90%;
     border-right: 3px solid var(--main-color);
     animation: moveCursorText 3s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
 }
 
 
@@ -509,7 +513,7 @@ section{
 .servicesItem{
     box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
                   rgba(0,0,0,0.06)0px 1px 2px 0px;
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 0.5rem;
     border-radius: 10px;
     background: var(--gradient-white-bg2);
     text-align: center;
@@ -572,8 +576,16 @@ section{
     font-size: 1rem;
     font-weight: 500;
     color: #000;
-    margin-right: .8rem;
-    cursor: pointer;              
+    margin-right: .8.3rem;
+    cursor: pointer;    
+    transition: 1s;          
+}
+
+.readMore:hover {
+    transition: 0.5s;
+    padding: 15px 22px;
+    background: var(--MW2-color);
+    color: #ffffff;
 }
 
 .proposal{
