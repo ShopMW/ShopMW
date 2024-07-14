@@ -1257,3 +1257,299 @@ footer{
         padding: 13px;
     }
 }
+
+/* Button */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bx-chevron-right-circle {
+    font-size: 55px;
+    color: #fff;
+}
+
+.bx-chevron-left-circle {
+    font-size: 55px;
+    color: #fff;
+}
+
+.bx-chevron-right-circle:hover {
+    color: #12c2e9;
+}
+
+.bx-chevron-left-circle {
+    transition: .4s;
+}
+
+.bx-chevron-left-circle:hover {
+    color: #12c2e9;
+}
+
+ul {
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li .bx-chevron-right-circle {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+ 
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+
+ul li span .bx-chevron-right-circle {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   border: 4px solid #fff;
+   transition: .5s;
+}
+
+ul li.next span .bx-chevron-right-circle{
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-left: none;
+    border-top: none;
+}
+
+ul li.next:hover span .bx-chevron-right-circle:hover {
+    right: 16%;
+}
+
+ul li.next span::before {
+    content: '';
+    position: absolute;
+    width: 35.3px;
+    height: 4px;
+    background: #fff;
+    transform-origin: right;
+    transform: rotate(45deg) translate(0px, 23.5px ) scale(0);
+    transition: .5s;
+}
+
+ul li.next:hover span::before {
+    transform: rotate(45deg) translate(0px, 23.5px ) scale(1);
+}
+
+ul li.prev span {
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-right: none;
+    border-bottom: none;
+}
+
+ul li.prev:hover span {
+    left: 16%;
+}
+
+ul li.prev span::before {
+    content: '';
+    position: absolute;
+    width: 35.3px;
+    height: 4px;
+    background: #fff;
+    transform-origin: left;
+    transform: rotate(45deg) translate(-2px, -1px ) scale(0);
+    transition: .5s;
+}
+
+ul li.prev:hover span::before {
+    transform: rotate(45deg) translate(-2px, -1px ) scale(1);
+}
+
+
+
+
+@media  (min-width:600px) {
+    ul {
+        bottom: 100%;
+    }
+}
+
+@media  (min-width:450px) {
+    ul  {
+        top: 100%;
+    }
+}
+
+@media  (min-width:700px) {
+    ul  {
+        top: 120%;
+    }
+}
+
+@media  (max-width:400px) {
+    ul {
+        top: 180%;
+    }
+}
+
+@media  (max-width:500px) {
+    ul {
+        top: 134%;
+    }
+}
+
+@media  (max-width:360px) {
+    ul {
+        top: 148%;
+    }
+}
+
+
+
+@media  (max-width:780px) {
+    ul {
+        top: 111%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:850px) {
+    ul {
+        top: 111%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:1024px) {
+    ul {
+        top: 98%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:550px) {
+    ul {
+        top: 160%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:1280px) {
+    ul {
+        top: 98%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:400px) {
+    ul {
+        top: 135%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:380px) {
+    ul {
+        top: 175%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:420px) {
+    ul {
+        top: 135%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+
+@media  (max-width:440px) {
+    ul {
+        top: 135%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:370px) {
+    ul {
+        top: 175%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+@media  (max-width:50px) {
+    ul {
+        top: 175%;
+    }
+
+    ul li {
+        margin: -36px 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+}
